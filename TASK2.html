@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Tribute</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+        --main-color: #000;
+        --accent-color: #FFF;
+        --darker-accent: #CCC;
+        --font-color: #FFF;
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--font-color);
+      }
+      
+      /* MAIN */
+      main {
+        display: grid;
+        grid-column: 3;
+        grid-row: auto;
+        gap: 2rem;
+        width: 90%;
+        margin: auto;
+        background-color: var(--main-color);
+        padding: 20px;
+        border: 1px solid var(--darker-accent);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      main h2 {
+        font-weight: normal;
+        font-style: italic;
+        font-size: 1.2rem;
+      }
+      
+      p {
+        margin: 1rem 0;
+      }
+      
+      #title {
+        margin-top: 3rem;
+      }
+      
+      #title, #img-div {
+        text-align: center;
+      }
+      
+      #img-div img {
+        max-height: 500px;
+        object-fit: cover;
+      }
+      
+      #quote {
+        background-color: var(--accent-color);   
+        padding: 2rem;
+      }
+      
+      #tribute-info {
+        color: var(--font-color);
+      }
+      
+      #tribute-info > * {
+        margin: 2rem 0;
+      }
+      
+      .awards-honours {
+        padding: 2rem;
+        background-color: var(--accent-color);
+      }
+      
+      .awards-honours ul {
+        padding-left: 3rem;
+      }
+      
+      .awards-honours li {
+        margin-top: 0.5rem;
+      }
+      
+      #know-more {
+        margin: 2rem 0;
+        text-align: center;
+      }
+      
+      /* MEDIA */
+      @media (max-width: 500px) {
+        #tribute-info {
+          width: 90%;
+          margin: auto;
+        }
+      }
+      
+      body {
+        background-color: #000;
+      }
+      
+      /* Timeline */
+      #tribute-info ul {
+        list-style-type: none;
+      }
+      
+      #tribute-info ul li strong {
+        color: var(--accent-color);
+      }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="title">
+      <h1>Google</h1>
+      <h2>The Most Used Web-Based Search Engine</h2>
+    </div>
+    <div id="img-div">
+      <img src="68.jpg" alt="Google Logo">
+    </div>
+    <div id="tribute-info">
+      <h3>Here's a timeline of Larry Page and Sergey Brin's journey:</h3>
+      <ul>
+        <li><strong>1996</strong> - Larry Page and Sergey Brin develop the "BackRub" search algorithm at Stanford University.</li>
+        <li><strong>1998</strong> - Google is officially launched to market Google Search.</li>
+        <li><strong>2002</strong> - Google News is launched.</li>
+        <li><strong>2004</strong> - Gmail is launched, and Google makes its initial public offering.</li>
+        <li><strong>2005</strong> - Google Maps is launched.</li>
+        <li><strong>2008</strong> - Google Chrome is launched.</li>
+        <li><strong>2011</strong> - Google+ social network is launched.</li>
+        <li><strong>2015</strong> - Google becomes the main subsidiary of Alphabet Inc.</li>
+        <li><strong>2020</strong> - Google announces quantum supremacy with their Sycamore processor.</li>
+        <li><strong>2023</strong> - Google introduces Project Quantum, a revolutionary AI-powered quantum computing platform aimed at solving complex problems.</li>
+      </ul>
+      <p><b>Founders:</b> Larry Page and Sergey Brin</p>
+      <p><b>Inception:</b> Google originated from a research project called "BackRub" started by Larry Page and Sergey Brin in 1996 while they were PhD students at Stanford University.</p>
+      <p><b>Initial Funding: </b>In August 1998, Andy Bechtolsheim, co-founder of Sun Microsystems, provided a crucial initial investment of $100,000 to the fledgling company.</p>
+      <p><b>Major Investors:</b> In June 1999, Google secured a round of equity funding totaling $25 million, with major investors including venture capital firms Kleiner, Perkins, Caufield & Byers, and Sequoia Capital.</p>
+      <p><b>CEO Appointment:</b> Eric Schmidt was hired as Google's first CEO in August 2001, following encouragement from investors, including Sequoia Capital, to bring in experienced leadership.</p>
+      <p><b>Initial Public Offering (IPO):</b> Google's IPO took place on August 19, 2004, raising $1.67 billion and valuing the company at over $23 billion. The IPO was listed on the NASDAQ stock exchange under the ticker symbol GOOG.</p>
+      <p><b>Company Culture: </b>Google's founders, Larry Page and Sergey Brin, famously reduced their salaries to $1 after the IPO, emphasizing their commitment to the company's long-term vision and values. They reassured investors that the IPO would not change the company's innovative culture.</p>
+      <p><b>Global Influence: </b>Google's impact on language and culture is significant, with the term "google" being officially added to dictionaries as a verb meaning "to search the internet using Google." The company's name has become synonymous with online search and information retrieval.</p>
+      <p><b>Partnerships:</b> Google has formed strategic partnerships with organizations such as NASA, Sun Microsystems, Time Warner's AOL, Hyundai-Kia, and many others. These collaborations have helped enhance Google's technological capabilities and expand its reach into new markets.</p>
+      <p><b>Current Initiatives: </b>Google continues to innovate and diversify its offerings, with ventures into cloud computing, artificial intelligence, hardware development, and other emerging technologies. Recent initiatives include Google Stadia, a cloud gaming platform, and partnerships with organizations like the Pontifical Council for Social Communications.</p>
+      <p><b>Corporate Structure:</b> In 2015, Google reorganized its interests under a holding company called Alphabet Inc., with Google serving as its leading subsidiary. This restructuring allowed Google to focus on its core internet-related businesses while exploring new ventures under Alphabet's umbrella.</p>
+      <p><b>Ongoing Developments: </b>Google's journey is marked by ongoing developments, including regulatory challenges, antitrust investigations, and initiatives to address social and environmental issues. The company remains at the forefront of technological innovation and is committed to shaping the future of the digital age.</p>
+    </div>
+    <h3>If you want to learn more about Google, visit their <a href="https://en.wikipedia.org/wiki/History_of_Google" target="_blank">Wikipedia page</a>.</h3>
